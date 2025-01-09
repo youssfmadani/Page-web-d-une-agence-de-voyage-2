@@ -1,43 +1,97 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
+<html>
     <head>
-        <meta charset = "UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>viatours</title>
-        <link rel="stylesheet" href="CSS/contact.css">
+        <link rel="stylesheet" href="contact.css">
+        <title>Viatours</title>
     </head>
 
     <body>
-        <header>
-            <div class="container">
-                <div><img src="image/logo.webp" alt=""></div>
-                <nav>
-                    <ul class="header">
-                        <a href="#">Destination</a></li>
-                        <a href="#">Avtivités</a></li>
-                        <a href="contact.html">Contact</a></li>
-                        <a href="#">Creer un compte</a></li>
-                    </ul>
-                    <button class="premier">Se connecter</button>
-                </nav>
-            </div>
-        </header>
-        <section>
-        <div classe="titre">
-            <h1 > contact us </h1>
-        </div>
-        <div class="image-contact"></div>
+        <header class="header">
+            <!-- ---------------------navbar--------------------- -->
+            <nav class="navbar">
+                <div class="container">
+                    <div class="nav-wrapper">
 
-    </section>
-   
-   
-    <footer>
-        <div class="pied">
-            <h5>Contact</h5>
-            <h6>N 433 Immeuble 3 Rue Zouhour, Beni Mllal</h6>
-            <h6>contact@viatours.com</h6>
-        </div>
-    </footer>
- </body>
+                        <img src="img/Logo.png" alt="" class="logo-image">
+
+                        <ul class="nav-items">
+
+                            <li class="nav-item"><a href="destination.html" class="nav-link">Destination</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Activities</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Creé un Compte</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link login-link border-rounded">Se Connecter</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+           <!----------------la section main-------------------->
+        <main class="hero-section">
+            <h1> Contact us </h1>
+            <form class="1">
+                <div class="fname">
+                    <p >First name</p>
+                    <input type="text">
+                </div>
+                <div class="lname">
+                    <p>Last name</p>
+                    <input type="text">
+                </div>
+            </form>
+            <form class="2">
+                <div class="fname">
+                    <p >e-mail(exp@gmail.com)</p>
+                    <input type="text">
+                </div>
+                <div class="lname">
+                    <p>Phone number</p>
+                    <input type="text">
+                </div>
+            </form>
+            <form class="C">
+                <div class="fname">
+                    <p >Send message</p>
+                    <textarea placeholder="  message..."></textarea>
+                </div>
+            </form>
+            <button class="send">Send</button>
+        </main>
+            <!-- ---------------------footer--------------------- -->
+
+            <footer class="footer-destination">
+                <div class="container">
+                    <div class="company">
+                            <img src="img/Logo.png" alt="Viatours">
+                        <div class="about-us">
+                            <p>
+                            Viatours est la première marketplace au Maroc, qui vous offre la meilleure expérience de voyage et de sortie en groupe. En parallèle, nous proposons également à nos clients des activités tout au long de la semaine dans plusieurs régions.
+                            </p>
+            
+                        </div>
+                    </div>
+                    
+                    <div class="contact">
+                        <h3>Contact</h3>
+                        <p>N 433 Immeubles 3 Rue Zohour, Béni Mellal</p>
+                        <p>conact @viatours.com</p>
+                        <p>+212 572924184</p>
+                        <p>www.viatours.com</p>
+                    </div>
+                    <div class="social-media">
+                        <h3>Suivez-nous</h3>
+                        <div class="sm-icone">
+                            
+                            <img src="img/fcbook.png" alt="facebook">
+                            <img src="img/instagram.png" alt="instagram">
+                        </div>
+                        
+                    </div>
+                </div>
+            </footer>
+                
+    </body>
 </html>
