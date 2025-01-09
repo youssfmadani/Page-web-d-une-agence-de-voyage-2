@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------ GLOBAL STYLING ----------------- */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+
+    list-style: none;
+}
+
+.container {
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ------------------------ HEADER STYLING ----------------- */
+
+.header {
+    width: 100%;
+}
+
+.header .navbar {
+
+    background-color: #fdf0ea;
+    padding: 20px 0px;
+    
+}
+
+.header .navbar .nav-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar .nav-wrapper .logo-image {
+    width: 180px;
+}
+
+.header .navbar .nav-wrapper .nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar .nav-wrapper .nav-items .nav-link {
+    color: black;
+    padding: 20px 10px ;
+
+}
+
+.header .navbar .nav-wrapper .nav-items .nav-link.login-link {
+    color: white;
+    padding: 10px 20px;   
+
+}
+
+.header .navbar .nav-wrapper .nav-items .nav-link.login {
+    color: white;
+}
+
+.border-rounded{
+
+    background-color: #EB662B;
+    border-radius: 30px;
+
+}
+
+
+/* ------------------------ HERO SECTION ----------------- */
+
+
+.hero-section .hero-content-wrapper {
+  
+    width: 600px;
+    margin: 50px ;
+    padding: 100px;
+}
+
+.highlight-text{
+    color: #EB662B;
+}
+
+
+h1 {
+    line-height: 40px;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 23px;
+}
+
+.hero-items {
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+
+
+.hero-section .hero-content-wrapper .hero-items { 
+    
+    padding: 10px 20px;
+    width: 130px;   
+    background-color: #EB662B;
+    border-radius: 30px;
+}
+
+.hero-section .hero-content-wrapper .hero-items .hero-link {
+    color: white;
+}
+
+.hero-image-wrapper {
+
+    margin-left: 70px;
+    margin-top: 10px;
+
+}
+
+
+.hero-section {
+    display: inline-block;
+    display: flex;
+    justify-content: baseline;
+}
+
+.cards {
+    
+
+    display: flex;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+
+.card {
+   
+    flex: 1;
+    
+
+}
+
+.cart-title{
+    margin : 20px 0  ;
+}
+
+
+h1  {
+
+padding: 100px;
+}
+
+
+
+.footer {
+    background-color: #fdf0ea;
+    
+    padding: 15px 0;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
