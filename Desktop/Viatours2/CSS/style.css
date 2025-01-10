@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.destination .cartes  {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);  
+  gap: 1em;
+  padding : 10px;
+  margin: 20px; 
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+  border-radius: 17px;
+  border: 4px solid bisque; 
+}
+
+.city-content {
+  background-color: #f6946a;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  line-height: 30px; 
+}
+
+
+
+
+
+
+
