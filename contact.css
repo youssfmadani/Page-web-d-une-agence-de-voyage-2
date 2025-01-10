@@ -6,6 +6,11 @@
 a {
     text-decoration: none;
 }
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 ul{
 
@@ -44,7 +49,7 @@ ul{
 
 .header .navbar .nav-wrapper .nav-items {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .header .navbar .nav-wrapper .nav-items .nav-link {
@@ -81,11 +86,11 @@ h1{
     font-size: xx-large;
     margin-left: 550px;
 }
-.fname{
+.A{
     font-size: medium;
     margin-left: 200px;
 }
-.lname{
+.B{
     font-size: medium;
    
 }
@@ -100,7 +105,7 @@ input{
     border: 1px solid #ccc;
     border-radius: 20px;
   }
-  .C .fname textarea{
+  .C .A textarea{
         width: 850px;
         height: 200px;
         resize: none;
@@ -114,8 +119,29 @@ input{
     margin: 0 245px;
     width: 800px;
   }
-  
-
+  .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .cards img{
+    justify-content: center;
+    width: 60px;
+    height: 45px;
+  }
+  .image{
+    background-color: #EB662B;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  .cards p {
+    color: #fff;
+    margin-top: 20px;
+    width: 100px;
+    text-align: left;
+  }
 .footer-destination{
     background-color: #fdf0ea;
  }
